@@ -1,0 +1,40 @@
+.box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    display: inline-block;
+}
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
+.green {
+    background: green;
+}
+.yellow {
+    background: yellow;
+}
+#btns {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+
+#btns button {
+    margin-left: 10px;
+    color: white;
+}
+
+.play {
+    background: green;
+    padding: 5px;
+}
+
+.pause {
+    background: red;
+}
